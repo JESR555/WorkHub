@@ -1,7 +1,5 @@
 <?php
-require 'funciones/conectar.php';
-require 'funciones/registrarse_estudiante.php';
-require 'funciones/entrar.php';
+require 'functions/conexion.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,11 +11,6 @@ require 'funciones/entrar.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Maquetación/CSS/normalizacion.css">
     <link rel="stylesheet" href="/Maquetación/CSS/index.css">
-<script>
-    function redirectToRegistrarseEstudiante() {
-        window.location.href = "/WorkHub/WorkHub/App/formulario_reg_estudiante.php";
-    }
-</script>
     <title>Workhub</title>
     <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
@@ -26,7 +19,7 @@ require 'funciones/entrar.php';
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active"><a href="#" class="nav-link font-italic">Entrar</a></li>
-              <li class="nav-item active"><a href="#" onclick="redirectToRegistrarseEstudiante()" class="nav-link font-italic">Registrarse</a></li>
+              <li class="nav-item active"><a href="formulario_reg_estudiante.php" class="nav-link font-italic">Registrarse</a></li>
               <li class="nav-item active"><a href="#" class="nav-link font-italic">Empleos</a></li>
               <li class="nav-item active"><a href="#" class="nav-link font-italic">Contactos</a></li>
             </ul>
