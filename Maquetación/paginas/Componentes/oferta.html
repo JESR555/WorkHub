@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Maquetación/CSS/normalizacion.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkHub</title>
-</head>
+    <title>WorkHub - Oferta de Trabajo</title>
+</head> 
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
         <div class="container"><a href="#" class="navbar-brand d-flex align-items-center"> <i class="fa fa-snowflake-o fa-lg text-primary mr-2"></i><strong><img src="/Maquetación/assets/images/WorkHub.svg" alt="" class="img-fluid" width="40%"></strong></a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -22,23 +23,58 @@
         </div>
       </nav>
 
-      <div class="bg-light">
-        <div class="container py-5">
-          <div class="row h-100 align-items-center py-5">
-            <div class="col-lg-6">
-              <h1 class="display-4">¡Bienvenido Usuario!</h1>
-              <p class="lead text-muted mb-0">Publica tu curriculum, o analiza las ofertas que tenemos para ti.</p>
-            </div>
-            <div class="col-lg-6 d-none d-lg-block">
-                <div class="btn-group-vertical align-items-center d-flex" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default">Publica tu curriculum</button>
-                    <button type="button" class="btn btn-default">Edita tu curriculum</button>
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bg-light py-5">
+	<div class="main-wrapper">
+		<div class="container px-3 px-lg-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+				
+				<div class="resume-header">
+					<div class="row align-items-center">
+						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+							<h2 class="resume-name mb-0 text-uppercase">Oferta de Trabajo - Desarrollador Full Stack</h2>
+							<div class="resume-tagline mb-3 mb-md-0">Empresa XYZ - Innovación en Tecnología</div>
+						</div><!--//resume-title-->
+					</div><!--//row-->
+				</div><!--//resume-header-->
+				<hr>
+				<div class="resume-body">
+					<div class="row">
+						<div class="resume-main col-12 col-lg-8 col-xl-9 pe-0 pe-lg-5">
+							<section class="job-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Descripción del Puesto</h3>
+								<div class="item-content">
+									<p>Estamos buscando un Desarrollador Full Stack altamente motivado para unirse a nuestro equipo en Empresa XYZ. Este puesto implica trabajar en proyectos emocionantes y desafiantes, contribuyendo al desarrollo y mantenimiento de aplicaciones web de alta calidad.</p>
+									<ul class="resume-list">
+										<li>Experiencia en el desarrollo tanto de frontend como de backend.</li>
+										<li>Colaboración estrecha con diseñadores y otros miembros del equipo para implementar soluciones efectivas.</li>
+										<li>Desarrollo y mantenimiento de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, y frameworks populares como React.js o Angular.</li>
+										<li>Integración de APIs y servicios externos para mejorar la funcionalidad del sistema.</li>
+									</ul>
+								</div>
+							</section><!--//job-section-->
+
+							<section class="requirements-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Requisitos</h3>
+								<ul class="list-unstyled resume-requirements-list">
+									<li class="mb-2">Experiencia demostrada como Desarrollador Full Stack.</li>
+									<li class="mb-2">Conocimiento sólido de tecnologías web, incluyendo HTML, CSS, JavaScript y frameworks como React.js o Angular.</li>
+									<li class="mb-2">Experiencia en el desarrollo de aplicaciones escalables y eficientes en el lado del servidor.</li>
+									<li class="mb-2">Habilidad para colaborar eficazmente en equipos multidisciplinarios.</li>
+									<li>Compromiso con el aprendizaje continuo y la adopción de nuevas tecnologías.</li>
+								</ul>
+							</section><!--//requirements-section-->
+							
+							<section class="application-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Cómo Aplicar</h3>
+								<p>Si estás interesado en unirte a nuestro equipo y enfrentar desafíos emocionantes, envía tu currículum y carta de presentación a [correo electrónico de la empresa]. Nos pondremos en contacto contigo para programar una entrevista.</p>
+							</section><!--//application-section-->
+						</div><!--//resume-main-->
+					</div><!--//row-->
+				</div><!--//resume-body-->
+			</article>
+		</div><!--//container-->
+	</div><!--//main-wrapper-->
+
+    <div class="bg-light py-5">
         <div class="container py-5">
           <div class="row mb-4">
             <div class="col-lg-5">
@@ -99,6 +135,6 @@
         <div class="container text-center">
           <p class="font-italic text-muted mb-0">&copy; EHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.</p>
         </div>
-      </footer>  
+      </footer>
 </body>
 </html>
